@@ -1,11 +1,21 @@
 #include <iostream>
 
-int main () {
+void sum();
 
-int a = 5;
-int b = 10;
-int sum = a + b;
+int main()
+{
 
-std::cout << "The sum of " << a << " and " << b << " is: " << sum << std::endl;
+    sum();
     return 0;
+}
+
+void sum()
+{
+    // This function is intentionally left unused to demonstrate the .gitignore file
+
+    int a = 5;
+    int b = 11;
+    int sum = a + b;
+
+    std::cout << "The sum of " << a << " and " << b << " is: " << sum << std::endl;
 }
